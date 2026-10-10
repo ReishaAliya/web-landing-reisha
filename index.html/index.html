@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Profil Siswa</title>
+    <!-- Menghubungkan CSS dari dalam folder assets/css/ -->
+     <link rel="stylesheet" href="assets rei/css/style.css">
+</head>
+<body>
+
+    <!-- 1. STICKY NAVBAR -->
+    <header class="navbar">
+         <div class="logo">Porto<span>Siswa</span></div>
+         <nav class="nav-links">
+             <a href="#tentang"> Tentang</a> |
+             <a href="#keahlian">Keahlian</a> |
+             <a href="#proyek">Proyek</a> |
+             <a href="#Kontak">Kontak</a> 
+        </nav>
+    </header>
+
+    <main>
+        <!--  2. HERO SECTION -->
+        <section id="Beranda" class="section hero">
+            <div class="container hero-content">
+                <h1>Selamat Datang di Halaman Portofolio</h1>
+                <p>Website resmi profil dan Portofolio pembelajaran Web Design Kelas 10 SMA.</p>
+                <a href="#profil" class="btn-cta">Kenali Saya</a>
+            </div>
+        </section>
+
+    <!-- 3. SECTION PROFIL DIRI (DENGAN PEMANGGILAN GAMBAR LOKAL) -->
+    <section id="profil" class="section">
+        <div class="container">
+            <h2 class="section-title">Profil Pengembang</h2>
+            <div class="profile-wrapper">
+                <!-- Wadah Foto Profil -->
+                <div class="profile-image-box">
+                     <img src="assets/images/profile.jpg" alt="Foto Profil Siswa" class="profile-img">
+                </div>
+                <!-- Wadah Informasi Diri -->
+                <div class="Profile-info">
+                    <h3>Halo, Saya Siswa Kelas 10</h3>
+                    <p class="role-badge">Calon Junior Web Designer & Progammer</p>
+                    <p>
+                       Saat ini saya sedang menempuh pembelajaran web development di sekolah.
+                       Saya mempelajari cara membangun website semantik, pengolahan versi dengan Git & Github,
+                       serta tata kelola aset proyek secara profesional.
+                    </p>
+                     <ul class="profile-details">
+                        <li><strong>Sekolah:</strong> SMA Plus</li>
+                        <li><strong>Kelas:</strong> 10 SMA</li>
+                        <li><strong>Fokus:</strong> HTML5, CSS3, & Git Version Control</li>
+                    </ul>
+                 </div>
+            </div>
+        </div>
+</section>
+
+   <!-- 4. SECTION KEAHLIAN / PROYEK -->
+    <section id="keahlian" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Kehalian & Pencapaian</h2>
+            <div class="grid-cards">
+                <article class="card">
+                    <h3>Struktur Folder & Aset</h3>
+                    <p>Mengorganisir file CSS dan gambar ke dalam folder aset secara modular dan teratur.</p>
+                </article>
+                <article class="card">
+                    <h3>Sticky Navigation</h3>
+                    <p>Menerapkan navigasi halaman modern yang tetap menempel di layar saat digulir.</p>
+                </article>
+                <article class="card"> 
+                    <h3>Git Cloud Deployment</h3>
+                    <p>Mempublikasikan perubahan halaman langsung secara online ke Github Pages.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <!-- 5. FOOTER -->
+    <footer id="kontak" class="footer">
+        <div class="kontak" class="footer">
+             <p>&copy; 2026 PortoSiswa SMA. Dibuat mandiri di Lab Komputer</p>
+             <p>Akses repositori: <a href="https://github.com/ReishaAliya/web-landing-reisha.git" target="_blank">Profil Github Siswa</a></p>
+        </div>
+    </footer>
+
+</body>
+</html>
